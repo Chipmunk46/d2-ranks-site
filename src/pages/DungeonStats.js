@@ -4,7 +4,7 @@ import DungeonCard from '../components/DungeonCard.js';
 function DungeonStats() {
   return (
     <>
-        <DungeonCard/>
+        <DungeonCard title='PROPHECY'/>
     </>
   )
 }
