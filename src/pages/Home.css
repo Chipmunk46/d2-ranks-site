@@ -1,0 +1,50 @@
+.home-stats-container {
+    position: relative;
+    height: 1000px;
+}
+.home-guides-container {
+    position: relative;
+    height: 1000px;
+}
+.home-news-container {
+    position: relative;
+    height: 1000px;
+}
+
+.stats-button{
+    position: absolute;
+    top:5%;
+    left: 2.5%;
+}
+.guides-button {
+    position: absolute;
+    bottom: 5%;
+    right: 2.5%;
+}
+.news-button {
+    position: absolute;
+    top:5%;
+    left: 2.5%;
+}
+.stats-text {
+    position: absolute;
+    top:10%;
+    left: 10%;
+}
+.guides-text {
+    position: absolute;
+    top:10%;
+    left: 10%;
+}
+.news-text {
+    position: absolute;
+    top:10%;
+    left: 10%;
+}
+
+.stats-image,.guides-image,.news-image {
+    width: 100%;                            
+    height: 100%;
+    margin: 0;
+    box-shadow: 0 4px 32px black;
+}
