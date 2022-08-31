@@ -1,20 +1,54 @@
+* {
+    font-family: 'JetBrainsMono';
+}
+
 .home-stats-container {
     position: relative;
-    height: 1000px;
+    height: 750px;
 }
 .home-guides-container {
     position: relative;
-    height: 1000px;
+    height: 750px;
 }
 .home-news-container {
     position: relative;
-    height: 1000px;
+    height: 750px;
+}
+.home-opening-container {
+    position: relative;
+    height: 750px;
+}
+
+.statsbox {
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.guidebox {
+    text-align: right;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.newsbox {
+    text-align: right;
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    top: 10%;
+    right: 10%;
 }
 
 .stats-button{
     position: absolute;
-    top:5%;
-    left: 2.5%;
+    bottom: 5%;
+    left: 5%;
+    color: black;
 }
 .guides-button {
     position: absolute;
@@ -23,23 +57,32 @@
 }
 .news-button {
     position: absolute;
-    top:5%;
-    left: 2.5%;
+    bottom: 5%;
+    right: 2.5%;
 }
 .stats-text {
     position: absolute;
-    top:10%;
-    left: 10%;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    top:5%;
+    left: 5%;
 }
 .guides-text {
     position: absolute;
-    top:10%;
-    left: 10%;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    top:5%;
+    right: 5%;
 }
 .news-text {
     position: absolute;
-    top:10%;
-    left: 10%;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    top:5%;
+    left: 5%;
 }
 
 .stats-image,.guides-image,.news-image {
@@ -47,4 +90,29 @@
     height: 100%;
     margin: 0;
     box-shadow: 0 4px 32px black;
+}
+
+.opening-title {
+    font-size: 50px;
+    text-align: right;
+}
+
+.opening-leaderboard-title {
+    font-size: 40px;
+}
+
+.openingimage {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    box-shadow: 0 4px 32px black;
+}
+
+.opencontainer {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
